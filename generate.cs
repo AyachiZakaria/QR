@@ -30,5 +30,18 @@ namespace QRcode0._2
             var code = new QRCoder.QRCode(MyData);
             pictureBox1.Image = code.GetGraphic(50);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string initialDIR = @"C:\Users\Name\Documents\QR_codes_file";
+            var dialog = new SaveFileDialog();
+            dialog.InitialDirectory = initialDIR;
+            dialog.FileName = textBox1.Text;
+            dialog.Filter = "PNG|*.png|JPEG|*.jpg|BMP|*.bmp|GIF|*.gif";
+            if (dialog.ShowDialog()==DialogResult.OK)
+            {
+                pictureBox1.Image.Save(dialog.FileName);
+            }
+        }
     }
 }

@@ -27,3 +27,13 @@ C:\Users\Name\source\repos\QRcode0.2\QRcode0.2\bin\Debug\netcoreapp3.1\runtimes\
 C:\Users\Name\source\repos\QRcode0.2\QRcode0.2\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
 C:\Users\Name\source\repos\QRcode0.2\QRcode0.2\obj\Debug\netcoreapp3.1\QRcode0.2.csproj.CopyComplete
 C:\Users\Name\source\repos\QRcode0.2\QRcode0.2\bin\Debug\netcoreapp3.1\Control.Draggable.dll
+C:\Users\Name\source\repos\QRcode0.2\QRcode0.2\bin\Debug\netcoreapp3.1\AForge.dll
+C:\Users\Name\source\repos\QRcode0.2\QRcode0.2\bin\Debug\netcoreapp3.1\AForge.Video.dll
+C:\Users\Name\source\repos\QRcode0.2\QRcode0.2\bin\Debug\netcoreapp3.1\AForge.Video.DirectShow.dll
+C:\Users\Name\source\repos\QRcode0.2\QRcode0.2\bin\Debug\netcoreapp3.1\zxing.dll
+C:\Users\Name\source\repos\QRcode0.2\QRcode0.2\bin\Debug\netcoreapp3.1\BarcodeStandard.dll
+C:\Users\Name\source\repos\QRcode0.2\QRcode0.2\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Users\Name\source\repos\QRcode0.2\QRcode0.2\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Name\source\repos\QRcode0.2\QRcode0.2\obj\Debug\netcoreapp3.1\QRcode0._2.Form2.resources
+C:\Users\Name\source\repos\QRcode0.2\QRcode0.2\obj\Debug\netcoreapp3.1\QRcode0._2.Form3.resources
+C:\Users\Name\source\repos\QRcode0.2\QRcode0.2\obj\Debug\netcoreapp3.1\QRcode0._2.scanner.resources

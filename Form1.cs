@@ -17,10 +17,6 @@ namespace QRcode0._2
 
             InitializeComponent();
         }
-        private void Form1_load(object sender, EventArgs e)
-        {
-            ControlExtension.Draggable(bar, true);
-        }
         public void loadform(object Form)
         {
             if (this.mainpanel.Controls.Count > 0)
@@ -32,11 +28,6 @@ namespace QRcode0._2
             this.mainpanel.Tag = f;
             f.Show();
         }
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click_1(object sender, EventArgs e)
         {
             loadform(new generate());
@@ -44,6 +35,7 @@ namespace QRcode0._2
 
         private void button2_Click(object sender, EventArgs e)
         {
+            loadform(new scanner());
 
         }
 
