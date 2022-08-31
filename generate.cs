@@ -15,18 +15,12 @@ namespace QRcode0._2
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            QRCoder.QRCodeGenerator QG = new QRCoder.QRCodeGenerator();
-            var MyData = QG.CreateQrCode(textBox1.Text, QRCoder.QRCodeGenerator.ECCLevel.H);
-            var code = new QRCoder.QRCode(MyData);
-            pictureBox1.Image = code.GetGraphic(50);
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            var qrText = comboBox1.SelectedItem+ "\n" + "ID: " +textBox1.Text + "\n" + "Acheté le: " + dateTimePicker1.Value + "\n" + "donné à: " + textBox2.Text + "\n" + "le: " + dateTimePicker2.Value + "\n" + "par: " + textBox3.Text + "\n";
             QRCoder.QRCodeGenerator QG = new QRCoder.QRCodeGenerator();
-            var MyData = QG.CreateQrCode(textBox1.Text, QRCoder.QRCodeGenerator.ECCLevel.H);
+            var MyData = QG.CreateQrCode(qrText, QRCoder.QRCodeGenerator.ECCLevel.H);
             var code = new QRCoder.QRCode(MyData);
             pictureBox1.Image = code.GetGraphic(50);
         }
@@ -42,6 +36,14 @@ namespace QRcode0._2
             {
                 pictureBox1.Image.Save(dialog.FileName);
             }
+        }
+
+        private void generate_Load(object sender, EventArgs e)
+        {
+            comboBox1.Items.Add("Casque");
+            comboBox1.Items.Add("Clavier");
+            comboBox1.Items.Add("Souris");
+            comboBox1.Items.Add("Cable");
         }
     }
 }

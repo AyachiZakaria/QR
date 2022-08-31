@@ -36,9 +36,11 @@ namespace QRcode0._2
             this.panel2 = new System.Windows.Forms.Panel();
             this.exit = new System.Windows.Forms.Button();
             this.mainpanel = new System.Windows.Forms.Panel();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.gen.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            this.mainpanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // gen
@@ -126,11 +128,23 @@ namespace QRcode0._2
             // 
             // mainpanel
             // 
+            this.mainpanel.Controls.Add(this.richTextBox1);
             this.mainpanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainpanel.Location = new System.Drawing.Point(234, 32);
             this.mainpanel.Name = "mainpanel";
             this.mainpanel.Size = new System.Drawing.Size(566, 418);
             this.mainpanel.TabIndex = 2;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Font = new System.Drawing.Font("Malgun Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.richTextBox1.Location = new System.Drawing.Point(0, 0);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(566, 418);
+            this.richTextBox1.TabIndex = 0;
+            this.richTextBox1.Text = "Bienvenu(e)\nCette application permet de générer et de scanner des codes QR conten" +
+    "ant \ndes informations sur l\'ordinateur et d\'autres composants informatiques.\n\n\n\n" +
+    "\n\n\n Développé par\nAyachi Zakaria";
             // 
             // Form1
             // 
@@ -146,6 +160,7 @@ namespace QRcode0._2
             this.gen.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
+            this.mainpanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -159,6 +174,7 @@ namespace QRcode0._2
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button exit;
         private System.Windows.Forms.Panel mainpanel;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 
